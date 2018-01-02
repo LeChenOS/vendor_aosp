@@ -23,3 +23,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heaptargetutilization=0.75 \
     dalvik.vm.heapminfree=4m \
     dalvik.vm.heapmaxfree=8m
+
+# Clean cache
+PRODUCT_COPY_FILES += \
+    vendor/nitrogen/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh

@@ -54,6 +54,10 @@ PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/50-base.sh:system/addon.d/50-base.sh \
     vendor/aosp/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 
+# Clean cache
+PRODUCT_COPY_FILES += \
+    vendor/aosp/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh
+
 ifeq ($(AB_OTA_UPDATER),true)
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/backuptool_ab.sh:system/bin/backuptool_ab.sh \

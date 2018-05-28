@@ -88,12 +88,18 @@ PRODUCT_COPY_FILES += \
 # Boot animations
 $(call inherit-product-if-exists, vendor/pixen/products/bootanimation.mk)
 
-# Themes
+# Themes Dark
 PRODUCT_PACKAGES += \
     GBoardDarkTheme \
     SettingsDarkTheme \
     SystemDarkTheme \
     SystemUIDarkTheme
+
+# Themes Black
+PRODUCT_PACKAGES += \
+    SettingsBlackTheme \
+    SystemBlackTheme
+
 # Overlays
 PRODUCT_PACKAGES += \
     AmberAccent \

@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/utils/emulator/nitrogen_emulator.mk
+    $(LOCAL_DIR)/utils/emulator/pixen_emulator.mk

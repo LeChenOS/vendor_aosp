@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo nitrogen_emulator-userdebug
+add_lunch_combo pixen_emulator-userdebug

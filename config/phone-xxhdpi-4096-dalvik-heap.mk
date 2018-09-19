@@ -26,4 +26,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Clean cache
 PRODUCT_COPY_FILES += \
-    vendor/nitrogen/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh
+    vendor/pixen/prebuilt/common/bin/clean_cache.sh:system/bin/clean_cache.sh

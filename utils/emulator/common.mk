@@ -1,4 +1,4 @@
-PRODUCT_BRAND ?= nitrogen
+PRODUCT_BRAND ?= pixen
 
 ifeq ($(PRODUCT_GMS_CLIENTID_BASE),)
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
@@ -17,9 +17,9 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Backup Tool
 PRODUCT_COPY_FILES += \
-    vendor/nitrogen/prebuilt/common/addon.d/50-nitrogen.sh:system/addon.d/50-nitrogen.sh \
-    vendor/nitrogen/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
-    vendor/nitrogen/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
+    vendor/pixen/prebuilt/common/addon.d/50-pixen.sh:system/addon.d/50-pixen.sh \
+    vendor/pixen/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/pixen/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions
 
 # Enable SIP and VoIP on all targets
 PRODUCT_COPY_FILES += \
@@ -29,4 +29,4 @@ PRODUCT_COPY_FILES += \
 -include vendor/omni/utils/emulator/packages.mk
 
 # Add our overlays
-DEVICE_PACKAGE_OVERLAYS += vendor/nitrogen/overlay/common
+DEVICE_PACKAGE_OVERLAYS += vendor/pixen/overlay/common

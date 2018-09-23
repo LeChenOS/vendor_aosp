@@ -151,7 +151,11 @@ include vendor/pixelstyle/config.mk
  PRODUCT_PACKAGES += \
      SettingsDarkTheme \
      SystemDarkTheme \
-     SystemUIDarkTheme
+     SystemUIDarkTheme \
+     SettingsBlackTheme \
+     SystemBlackTheme \
+     SystemUIBlackTheme
+
  # Accents
  PRODUCT_PACKAGES += \
      AmberAccent \

@@ -1,5 +1,5 @@
 ifneq ($(IS_GENERIC_SYSTEM_IMAGE), true)
-ifeq ($(CUSTOM_BUILD_TYPE), OFFICIAL)
+ifeq ($(CUSTOM_BUILD_TYPE), OFFICIA)
 
 ifeq ($(IS_GO_VERSION), true)
 CUSTOM_OTA_VERSION_CODE := pie_go

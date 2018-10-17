@@ -197,3 +197,11 @@ include vendor/pixelstyle/config.mk
  PRODUCT_PACKAGES += \
       OmniJaws \
       OmniRecord
+
+
+# QS tile styles
+PRODUCT_PACKAGES += \
+    QStileCircleTrim \
+    QStileDefault \
+    QStileDualToneCircle \
+    QStileSquircleTrim
